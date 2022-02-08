@@ -46,7 +46,7 @@ def download_yolov5s6_model(destination_path: Optional[str] = None):
         )
 
 
-def download_yolov5s6_model(destination_path: Optional[str] = None):
+def download_yolov5l6_model(destination_path: Optional[str] = None):
 
     if destination_path is None:
         destination_path = Yolov5TestConstants.YOLOV5L6_MODEL_PATH
